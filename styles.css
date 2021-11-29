@@ -1,0 +1,108 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+}
+#hours {
+  text-align: center;
+}
+#intro {
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 2px solid orange;
+  background-color: orange;
+  color: white;
+}
+#chart-img {
+  margin-left: auto;
+  margin-right: auto;
+}
+h2 {
+  text-align: center;
+  border-bottom: 2px solid orange;
+  font-size: 130%;
+  color: orange;
+}
+.pizza-old {
+  height: 400px;
+  overflow: scroll;
+  text-align: center;
+}
+figure img {
+  border-radius: 50%;
+}
+figcaption {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.note {
+  font-size: 80%;
+  color: red;
+}
+#toppings-choose {
+  text-align: center;
+}
+.cost-toppings li {
+  list-style-type: none;
+}
+.cost-toppings p {
+  border-bottom: 1px solid orange;
+}
+#contacts {
+  text-align: center;
+  background-color: orange;
+  color: white;
+}
+figure {
+  padding: 2px;
+  margin: 15px;
+}
+figure .card-footer {
+  font-size: 80%;
+}
+#menu .card-header,
+#toppings .card-header {
+  background-color: orange;
+  color: white;
+  text-align: center;
+}
+header {
+  text-align: center;
+  color: orange;
+}
+#priceTag,
+#crustPrice {
+  text-align: center;
+  font-size: 90%;
+  border-left: 1px solid orange;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+#offer-delivery {
+  text-align: center;
+  padding: 30px;
+  font-weight: bold;
+  font-size: 120%;
+}
+#offer-delivery:hover {
+  border: 2px solid orange;
+}
+#menu {
+  text-align: center;
+  background-image: url("https://st2.depositphotos.com/50024282/46257/v/950/depositphotos_462570652-stock-illustration-cute-pizza-cartoon-vector-icon.jpg");
+  background-size: contain;
+}
+figure:hover {
+  border: 2px solid orange;
+}
+.order-details {
+  text-align: center;
+  display: none;
+  background-color: orange;
+  font-weight: bold;
+  padding: 20px;
+}
+#charges {
+  display: none;
+}
